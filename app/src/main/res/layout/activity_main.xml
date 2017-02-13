@@ -8,13 +8,40 @@
     tools:context="net.wattwire.geolog.MainActivity">
 
     <TextView
+        android:text="Weather Condition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="16dp"
-        tools:layout_constraintLeft_creator="1"
+        android:id="@+id/textCondition"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="16dp" />
+        tools:textSize="30sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="40dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:text="Sunny"
+        android:layout_width="145dp"
+        android:layout_height="51dp"
+        android:id="@+id/buttonSunny"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:text="Foggy"
+        android:layout_width="145dp"
+        android:layout_height="51dp"
+        android:id="@+id/buttonFoggy"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp" />
 </android.support.constraint.ConstraintLayout>
