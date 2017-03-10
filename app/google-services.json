@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "140348905148",
+    "firebase_url": "https://geolog-b94d9.firebaseio.com",
+    "project_id": "geolog-b94d9",
+    "storage_bucket": "geolog-b94d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140348905148:android:1ebfe667bc1e9642",
+        "android_client_info": {
+          "package_name": "net.wattwire.geolog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140348905148-t06b3qc8qal75usal51cvuvp14g4iinf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc0RNtRKJ2zSANN4W7zHHahvTwypRaQVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140348905148-t06b3qc8qal75usal51cvuvp14g4iinf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
